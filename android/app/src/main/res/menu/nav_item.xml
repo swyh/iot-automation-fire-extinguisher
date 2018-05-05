@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/first"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="메인화면"/>
+
+            <item
+                android:id="@+id/second"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="설정"/>
+
+            <item
+                android:id="@+id/third"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="로그아웃"/>
+        </menu>
+    </item>
+
+    <!--<item android:title="Preference">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/forth"-->
+                <!--android:icon="@android:drawable/ic_menu_preferences"-->
+                <!--android:title="환경설정"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

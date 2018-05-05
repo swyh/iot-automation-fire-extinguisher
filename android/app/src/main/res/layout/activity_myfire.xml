@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.power.kimyounghoon.project.MyfireActivity"
+    android:background="@drawable/bg1"
+    >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout">
+        <include
+            layout="@layout/tool_bar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout" />
+
+    <ImageView
+        android:id="@+id/btn_extinguish2"
+        android:layout_width="220dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="64dp"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/click1"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignEnd="@+id/addButton" />
+
+
+    <ImageView
+        android:id="@+id/btn_119"
+        android:layout_width="220dp"
+        android:layout_height="86dp"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/click2"
+        android:layout_below="@+id/btn_extinguish2"
+        android:layout_alignStart="@+id/btn_extinguish2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/textView_main_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
