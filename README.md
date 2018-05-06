@@ -9,4 +9,4 @@
 - autodesk
 
 ## Functionality
-![기능](기능)
+![기능](./image/기능)
