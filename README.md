@@ -4,7 +4,7 @@
 
 ## Component
 - android
-- arduino (연기/불꽃 감지 센서, 와이파이 쉴드)
+- arduino (additionally frame sensor, smoke sensor, wifi shield)
 - database
 - server(php)
 - autodesk
