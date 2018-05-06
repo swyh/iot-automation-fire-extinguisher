@@ -5,9 +5,9 @@
 ## Component
 - android
 - google FCM
-- arduino (additionally frame sensor, smoke sensor, wifi shield)
-- database
+- database(mysql)
 - server(php)
+- arduino (additionally frame sensor, smoke sensor, wifi shield)
 - autodesk
 
 ## Things to improve
