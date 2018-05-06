@@ -4,9 +4,15 @@
 
 ## Component
 - android
-- arduino
+- arduino (연기/불꽃 감지 센서, 와이파이 쉴드)
 - database
 - server(php)
 - autodesk
 
-
+## Things to improve
+- Communication problem from arduino to server
+- Android Listveiw error
+- Not yet implemented
+  - maintain login session.
+  - register iot device in database.
+- Many other improvements are needed.
