@@ -2,6 +2,11 @@
 모바일로 소화기의 상태를 확인하고 자동으로 동작시키는 시스템 [자세히](./introduction)
 ![](./image/기능.jpg)
 
+## Functionality
+- Detects smoke or fire and sends a signal to the user's app
+- The user who receives the signal can decide whether to use automatic digestion
+- In addition, users can use automatic digestion in an app.
+
 ## Component
 - android
 - google FCM
