@@ -12,7 +12,7 @@
 - google FCM
 - database(mysql)
 - server(php)
-- arduino (additionally frame sensor, smoke sensor, wifi shield)
+- arduino (additionally frame sensor, smoke sensor, moter sensor, wifi shield)
 - autodesk
 
 ## Things to improve
